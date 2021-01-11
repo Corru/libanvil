@@ -26,6 +26,10 @@ if (NOT Boost_REGEX_FOUND)
     find_package(Boost REQUIRED COMPONENTS regex)
 endif()
 
+if (NOT ZLIB_FOUND)
+    find_package(ZLIB REQUIRED)
+endif()
+
 
 # ------------------------------------------------------- #
 
