@@ -2,6 +2,7 @@
 # 
 #
 add_library(libanvil)
+add_library(libanvil::libanvil ALIAS libanvil)
 
 
 # ------------------------------------------------------- #
